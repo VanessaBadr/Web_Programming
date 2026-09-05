@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Form</title>
+</head>
+<body>
+    <header>
+        <h1>Contact Form:</h1>
+    </header>
+    <nav>
+        <a href="#Home">Homepage</a>
+        <a href="#About">About Us</a>
+        <a href="#Contact">Contact Us</a>
+    </nav>
+    <main> 
+        <h3>Fill in the following boxes with your contact information.</h3>
+        <form action="/submit" method="post">
+            <label for="name">Name</label>
+            <input id="name" name="Name" required>
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required>
+            <label for="msg">Message</label>
+            <textarea id="msg" name="Message" required></textarea>
+            <button type="submit"> Send</button>
+            <p>The following information will be used to create an email list for future updates</p>
+        </form>
+    </main>
+    <footer>
+        <p>Done by Vanessa Badr - CCE 2026</p>
+    </footer>
+</body>
+</html>
